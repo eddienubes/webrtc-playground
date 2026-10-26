@@ -1,11 +1,4 @@
-import {
-	createRef,
-	useCallback,
-	useEffect,
-	useRef,
-	useState,
-	type Ref,
-} from "react";
+import { createRef, useCallback, useEffect, useRef, useState, type Ref } from "react";
 import "./index.css";
 import "./App.css";
 

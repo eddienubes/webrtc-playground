@@ -1,17 +1,16 @@
 {
 	"name": "webrtc-for-musicians",
 	"version": "1.0.0",
+	"private": true,
 	"description": "",
 	"keywords": [],
 	"license": "ISC",
 	"author": "",
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev"
-	},
-	"dependencies": {
-		"react": "^19.3.1",
-		"react-dom": "^19.3.1"
+		"format": "pnpm oxfmt . --write",
+		"lint": "pnpm oxlint . --fix",
+		"pre": "pnpm run format && pnpm run lint"
 	},
 	"devDependencies": {
 		"@types/node": "^26.6.5",
